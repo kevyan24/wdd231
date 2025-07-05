@@ -1,0 +1,43 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1.5rem auto 2.75rem;
+  padding: .3125rem 0 .3125rem .625rem;
+  align-items: end;
+  border-bottom: 1px solid #ddd;
+  column-gap: .5rem;
+/*   line-height: 1rem; */
+}
+
+header img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-bottom: .3125rem;
+}
+
+header span {
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::after {
+  content: "\2630";
+  font: 2rem;
+}
+
+.hamburger.show::after {
+  content: "\00D7";
+}
