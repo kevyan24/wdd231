@@ -9,7 +9,7 @@ ham.addEventListener('click', () => {
 const date = document.querySelector('#lastModified');
 
 if (date) {
-  const formatted = new Date().toLocaleString('en-US', {
+  const formatted = new Date(document.lastModified).toLocaleString('en-US', {
     day: '2-digit',
     month: '2-digit',
     year: 'numeric',
