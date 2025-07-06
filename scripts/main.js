@@ -136,4 +136,3 @@ wddBtn.addEventListener('click', () => displayCourses(course => course.subject =
 cseBtn.addEventListener('click', () => displayCourses(course => course.subject === 'CSE'));
 
 displayCourses(() => true);
-
