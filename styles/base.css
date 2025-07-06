@@ -22,7 +22,7 @@ header img {
 
 header span {
   font-size: 1.2rem;
-  color: #000000;
+  color: #3d405b;
 }
 
 .hamburger {
@@ -75,4 +75,36 @@ header span {
 
 h1 {
   margin-left: .625rem;
+  color: #3d405b;
+}
+
+footer {
+  background-color: #eee;
+  padding: 1rem .625rem;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  column-gap: .5rem;
+}
+
+.social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid #ccc;
+  border-radius: 1.375rem;
+}
+
+.social img {
+  width: 1.375rem;
+  height: 1.375rem;
+}
+
+.social a:hover {
+  background-color: #ddd;
 }
