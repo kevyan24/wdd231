@@ -1,0 +1,81 @@
+@media only screen and (min-width: 38rem) {
+  header {
+    grid-template-columns: 2.5rem auto auto;
+    align-items: center;
+  }
+
+  .menu {
+    display: flex;
+    background-color: #8B2E2B;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  #grid,
+  #list {
+    background-color: #2F2F2F;
+    border: none;
+    color: #D9C8A1;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .nav-bar {
+    display: block;
+  }
+
+  .nav-bar ul {
+    display: flex;
+    justify-content: end;
+  }
+
+  .nav-bar li {
+    padding: .8rem 1.5rem;
+  }
+
+  .nav-bar li:hover {
+    cursor: pointer;
+  }
+
+  .nav-bar a:hover {
+    font-weight: 800;
+  }
+
+  .ham-btn {
+    display: none;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+
+    section {
+      display: grid;
+      grid-template-columns: 2fr 3fr 2fr 2fr 2fr .5fr;
+      margin: 0;
+      padding: 0.25rem;
+
+      &>* {
+        margin: 0 1rem;
+      }
+
+      img {
+        display: none;
+      }
+
+      h3 {
+        font-size: 1rem;
+      }
+
+      &:nth-child(even) {
+        background-color: #bbb;
+      }
+
+      .description {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
