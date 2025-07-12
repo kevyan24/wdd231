@@ -50,32 +50,32 @@
   .list {
     display: flex;
     flex-direction: column;
+  }
 
-    section {
-      display: grid;
-      grid-template-columns: 2fr 3fr 2fr 2fr 2fr .5fr;
-      margin: 0;
-      padding: 0.25rem;
+  .list section {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr 2fr 2fr 0.5fr;
+    margin: 0;
+    padding: 0.25rem;
+  }
 
-      &>* {
-        margin: 0 1rem;
-      }
+  .list section>* {
+    margin: 0 1rem;
+  }
 
-      img {
-        display: none;
-      }
+  .list section img {
+    display: none;
+  }
 
-      h3 {
-        font-size: 1rem;
-      }
+  .list section h3 {
+    font-size: 1rem;
+  }
 
-      &:nth-child(even) {
-        background-color: #bbb;
-      }
+  .list section:nth-child(even) {
+    background-color: #bbb;
+  }
 
-      .description {
-        font-size: 0.8rem;
-      }
-    }
+  .list section .description {
+    font-size: 0.8rem;
   }
 }
