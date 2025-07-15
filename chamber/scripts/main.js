@@ -22,6 +22,7 @@ function displayMembers(members) {
 
     url.setAttribute('href', member.website)
     img.setAttribute('src', member.image)
+    img.setAttribute('alt', member.alt);
     description.setAttribute('class', 'description')
 
     name.textContent = `${member.name}`;
@@ -30,8 +31,6 @@ function displayMembers(members) {
     url.textContent = `${member.website}`;
     level.textContent = `${member.membership_level}`
     description.textContent = `${member.description}`
-
-
 
     card.appendChild(name);
     card.appendChild(img)

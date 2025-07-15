@@ -93,7 +93,7 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   gap: 1rem;
   padding: 1rem;
   background-color: #8B2E2B;
@@ -104,6 +104,8 @@ section {
   background-color: #D9C8A1;
   color: #2F2F2F;
   font-size: 0.8rem;
+  text-overflow: ellipsis;
+  overflow: hidden
 }
 
 section h2 {

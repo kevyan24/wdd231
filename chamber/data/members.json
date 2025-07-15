@@ -6,6 +6,7 @@
       "phone": "+593 99 250 7774",
       "website": "https://www.museorestaurantecuenca.com",
       "image": "https://ui-avatars.com/api/?name=Museo+Gastronomía+Cuencana&background=0D8ABC&color=fff&size=128&rounded=true",
+      "alt": "Logo of Museo de la Gastronomía Cuencana",
       "membership_level": 3,
       "description": "First gastronomy museum in Ecuador offering cultural tours and traditional cuisine."
     },
@@ -15,6 +16,7 @@
       "phone": "+593 98 453 7693",
       "website": "https://www.tripadvisor.com/Restaurant_Review-g294309-d7716605",
       "image": "https://ui-avatars.com/api/?name=Dos+Sucres&background=0D8ABC&color=fff&size=128&rounded=true",
+      "alt": "Logo of Dos Sucres restaurant",
       "membership_level": 2,
       "description": "Contemporary comfort food using organic, locally sourced ingredients."
     },
@@ -24,6 +26,7 @@
       "phone": "+593 93 979 954",
       "website": "https://anubisrestaurant.com",
       "image": "https://ui-avatars.com/api/?name=Anubis+Restaurant&background=0D8ABC&color=fff&size=128&rounded=true",
+      "alt": "Logo of Anubis Restaurant",
       "membership_level": 2,
       "description": "Casual dining spot known for generous portions and friendly service."
     },
@@ -33,6 +36,7 @@
       "phone": "+593 7 283 1234",
       "website": "http://www.alcuboarquitectura.com",
       "image": "https://ui-avatars.com/api/?name=Al+Cubo+Arquitectura&background=0D8ABC&color=fff&size=128&rounded=true",
+      "alt": "Logo of Al Cubo Arquitectura",
       "membership_level": 3,
       "description": "Ecological architecture studio for residential and commercial projects."
     },
@@ -42,6 +46,7 @@
       "phone": "+593 7 283 5678",
       "website": "http://www.arqosarquitectura.com",
       "image": "https://ui-avatars.com/api/?name=Aaqos+Arquitectura+Construcción&background=0D8ABC&color=fff&size=128&rounded=true",
+      "alt": "Logo of Aaqos Arquitectura & Construcción",
       "membership_level": 2,
       "description": "Innovation-focused architecture and construction firm."
     },
@@ -51,6 +56,7 @@
       "phone": "+593 7 283 9101",
       "website": "http://www.construba.com",
       "image": "https://ui-avatars.com/api/?name=Construba&background=0D8ABC&color=fff&size=128&rounded=true",
+      "alt": "Logo of Construba",
       "membership_level": 2,
       "description": "Builders and architects specializing in eco-conscious construction."
     },
@@ -60,6 +66,7 @@
       "phone": "+593 7 283 1213",
       "website": "https://www.creativa.ec",
       "image": "https://ui-avatars.com/api/?name=Creativa&background=0D8ABC&color=fff&size=128&rounded=true",
+      "alt": "Logo of Creativa architecture studio",
       "membership_level": 2,
       "description": "Multidisciplinary architecture & engineering studio with innovative design."
     }
