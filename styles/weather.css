@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 2rem;
+}
+
+main p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+main figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+main figure img {
+  background-color: rgb(127, 255, 212);
+  border-radius: 2rem;
+  width: 20%;
+  height: auto;
+}
+
+main figure figcaption {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: aquamarine;
+  margin-top: 2rem;
+}
