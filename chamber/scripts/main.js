@@ -28,8 +28,8 @@ function displayMembers(members) {
     name.textContent = `${member.name}`;
     phone.textContent = `Phone: ${member.phone}`;
     address.textContent = `Address: ${member.address}`;
-    url.textContent = `${member.website}`;
-    level.textContent = `${member.membership_level}`
+    url.textContent = `Visit Website`;
+    level.textContent = `${member.membership}`
     description.textContent = `${member.description}`
 
     card.appendChild(name);
@@ -102,3 +102,4 @@ function handleResize(event) {
 handleResize(smallScreenQuery);
 
 smallScreenQuery.addEventListener("change", handleResize);
+

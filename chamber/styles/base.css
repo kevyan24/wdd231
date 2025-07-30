@@ -83,6 +83,31 @@ h1 {
   padding: 1rem;
 }
 
+.hero {
+  position: relative;
+  padding: 0;
+}
+
+.hero-img {
+  width: 100%;
+  object-fit: contain;
+  padding: 0;
+}
+
+main section button {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: hsla(2, 53%, 36%);
+  box-shadow: 0 0 10px rgba(0, 0, 0);
+  color: #ffffff;
+  font-size: 1.8rem;
+  width: 12rem;
+  height: 4rem;
+  border: none;
+  cursor: pointer;
+}
+
 /* #members {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -155,4 +180,16 @@ footer p {
 
 .menu {
   display: none;
+}
+
+.second {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 1rem;
+  padding: 0;
+  padding-bottom: 1rem;
+}
+
+.spotlight-card {
+  
 }

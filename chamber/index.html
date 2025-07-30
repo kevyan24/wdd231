@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script src="./scripts/main.js" defer></script>
+  <script src="./scripts/home.js" defer></script>
   <link rel="icon" href="./images/favicon.ico">
   <link rel="stylesheet" href="./styles/base.css">
   <link rel="stylesheet" href="./styles/larger.css">
@@ -40,6 +40,32 @@
     </nav>
     <button id="ham-btn" class="ham-btn"></button>
   </header>
+  <main>
+    <section class="hero">
+      <img src="./images/hero.webp" alt="cuenca-hero-img" class="hero-img">
+      <button>JOIN</button>
+    </section>
+    <section class="second">
+      <h1>Home</h1>
+      <div>
+        <h2>Events</h2>
+      </div>
+      <div class="weather-box">
+        <h2>Current Weather</h2>
+        <img id="weather-icon" alt="weather-icon">
+        <p id="weather"></p>
+        <P id="weather-description"></P>
+        <div id="weather-details"></div>
+      </div>
+      <div>
+        <h2>Weather Forecast</h2>
+        <ul id="forecast-list"></ul>
+      </div>
+    </section>
+    <section id="spotlights" class="spotlights">
+
+    </section>
+  </main>
   <footer>
     <p><span id="currentyear"></span> &bull; Kevin Andres Yanez &bull; Quito, Ecuador</p>
     <p id="lastModified"></p>
