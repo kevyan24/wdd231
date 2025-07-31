@@ -96,8 +96,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     gap: 1rem;
-    padding: 0;
-    padding-bottom: 1rem;
+    padding: 1rem;
   }
   
   .second h1 {

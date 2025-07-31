@@ -78,7 +78,7 @@ function displayWeather(data) {
   weather.textContent = data.main.temp + '°C';
   weatherDescription.textContent = data.weather[0].description.toUpperCase();
   weatherIcon.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
-  weatherDetails.innerHTML = `Temperature: ${data.main.temp}°C </br> High: ${data.main.temp_max}°C </br> Low: ${data.main.temp_min}°C </br> Humidity: ${data.main.humidity}% </br> Sunrise: ${sunrise.toLocaleTimeString('en-US', options)} </br> Sunset: ${sunset.toLocaleTimeString('en-US', options)}`;
+  weatherDetails.innerHTML = `High: ${data.main.temp_max}°C </br> Low: ${data.main.temp_min}°C </br> Humidity: ${data.main.humidity}% </br> Sunrise: ${sunrise.toLocaleTimeString('en-US', options)} </br> Sunset: ${sunset.toLocaleTimeString('en-US', options)}`;
 }
 
 function displayForecast(data) {
@@ -131,7 +131,7 @@ function displayRandomMembers(members) {
 
   selected.forEach(member => {
     const card = document.createElement('div');
-    card.classList.add('spotlight-card');
+    card.setAttribute('class','spotlight-card');
 
     card.innerHTML = `
       <img src="${member.image}" alt="${member.alt}">
