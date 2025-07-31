@@ -77,7 +77,7 @@ function displayWeather(data) {
 
   weather.textContent = data.main.temp + '°C';
   weatherDescription.textContent = data.weather[0].description.toUpperCase();
-  weatherIcon.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+  weatherIcon.innerHTML = `<img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="weather-icon" class="weather-icon">`;
   weatherDetails.innerHTML = `High: ${data.main.temp_max}°C </br> Low: ${data.main.temp_min}°C </br> Humidity: ${data.main.humidity}% </br> Sunrise: ${sunrise.toLocaleTimeString('en-US', options)} </br> Sunset: ${sunset.toLocaleTimeString('en-US', options)}`;
 }
 
