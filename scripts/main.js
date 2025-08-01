@@ -124,6 +124,9 @@ function displayCourses(filterFn) {
     const li = document.createElement('li');
     li.innerHTML = `
       <small>${course.completed ? '✅' : '❌'}</small><strong>${course.subject} ${course.number}</strong>`;
+    li.addEventListener('click', () => {
+      displayCourseDetails(course);
+    });
     courseList.appendChild(li);
   });
 
@@ -136,3 +139,24 @@ wddBtn.addEventListener('click', () => displayCourses(course => course.subject =
 cseBtn.addEventListener('click', () => displayCourses(course => course.subject === 'CSE'));
 
 displayCourses(() => true);
+
+const courseDetails = document.getElementById('course-details');
+
+function displayCourseDetails(course) {
+  courseDetails.innerHTML = '';
+  courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+  courseDetails.showModal();
+
+  const closeModal = document.getElementById("closeModal");
+  closeModal.addEventListener("click", () => {
+    courseDetails.close();
+  });
+}
