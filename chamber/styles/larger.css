@@ -109,4 +109,20 @@
     gap: 1rem;
     padding: 1rem;
   }
+
+  .join-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 1rem;
+  }
+
+  .join-section {
+    padding: 1rem;
+    min-width: 25rem;
+  }
 }
