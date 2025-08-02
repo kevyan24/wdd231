@@ -1,0 +1,94 @@
+:root {
+  --primary-color: #2E7D32;
+  --secondary-color: #0288D1;
+  --background-color: #FFFFFF;
+  --font-family-heading: 'Montserrat', sans-serif;
+  --font-family-body: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: var(--font-family-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-heading);
+}
+
+p {
+  line-height: 1.6;
+  color: #000000;
+}
+
+h1 {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  text-align: center;
+  padding: 1rem;
+}
+
+h2 {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  text-align: center;
+  padding: 1rem;
+}
+
+.intro {
+  text-align: center;
+  padding: 1rem 1rem 0;
+  font-size: 1.5rem;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 .4688rem rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+}
+
+.content section {
+  padding: .5rem;
+  background-color: #FFFFFF;
+  border-radius: 0.75rem;
+  box-shadow: 0 0 .4688rem rgba(0, 0, 0, 0.5);
+}
+
+.content section h2 {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.content section h3 {
+  padding: .5rem .5rem 0;
+}
+
+.content section p {
+  padding: .5rem;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  line-height: 2;
+  padding: 0 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
